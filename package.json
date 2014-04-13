@@ -1,0 +1,9 @@
+{
+  "name": "fullscreen-js",
+  "version": "0.0.2",
+  "devDependencies": {
+    "gulp-bump": "~0.1.7",
+    "gulp": "~3.6.0",
+    "gulp-git": "~0.3.6"
+  }
+}

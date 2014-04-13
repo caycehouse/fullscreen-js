@@ -1,0 +1,22 @@
+{
+  "name": "fullscreen-js",
+  "version": "0.0.2",
+  "main": "dist/fullscreen-js.js",
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md",
+    "bower_components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
