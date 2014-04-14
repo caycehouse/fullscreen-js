@@ -49,7 +49,7 @@
     }
   }
 
-  $.fn.goFullscreen = function() {
+  $.fn.enterFullscreen = function() {
     var element = this[0];
     fullscreen( true, element );
   };

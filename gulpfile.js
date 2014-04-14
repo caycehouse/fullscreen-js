@@ -13,12 +13,12 @@ gulp.task( 'uglify', function() {
   .pipe( rename({
     suffix: '.min'
   }))
-  .pipe( gulp.dest( './dest' ) );
+  .pipe( gulp.dest( './dist' ) );
 });
 
 gulp.task( 'copy', function() {
   gulp.src( './src/fullscreen-js.js' )
-  .pipe( gulp.dest( './dest' ) );
+  .pipe( gulp.dest( './dist' ) );
 });
 
 // Update bower, component, npm at once:
