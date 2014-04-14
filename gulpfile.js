@@ -22,9 +22,23 @@ gulp.task( 'copy', function() {
 });
 
 // Update bower, component, npm at once:
-gulp.task( 'bump', function() {
+gulp.task( 'bump-patch', function() {
   gulp.src(['./bower.json', './package.json'])
-  .pipe(bump())
+  .pipe(bump({type: 'patch'}))
+  .pipe(gulp.dest('./'));
+});
+
+// Update bower, component, npm at once:
+gulp.task( 'bump-minor', function() {
+  gulp.src(['./bower.json', './package.json'])
+  .pipe(bump({type: 'minor'}))
+  .pipe(gulp.dest('./'));
+});
+
+// Update bower, component, npm at once:
+gulp.task( 'bump-major', function() {
+  gulp.src(['./bower.json', './package.json'])
+  .pipe(bump({type: 'major'}))
   .pipe(gulp.dest('./'));
 });
 
