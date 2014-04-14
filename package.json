@@ -4,6 +4,8 @@
   "devDependencies": {
     "gulp-bump": "~0.1.7",
     "gulp": "~3.6.0",
-    "gulp-git": "~0.3.6"
+    "gulp-git": "~0.3.6",
+    "gulp-uglify": "~0.2.1",
+    "gulp-rename": "~1.2.0"
   }
 }
